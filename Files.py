@@ -1,0 +1,6 @@
+gradefile  = open('grades.txt','w')
+gradefile2 = open('mygrades.txt') 
+s = gradefile2.readlines()
+gradefile.writelines(s)
+editfile = open('grades.txt','a')
+editfile.write("\nE   A-")
